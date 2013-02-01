@@ -1,1 +1,4 @@
 html, body { width: 100%; height: 100%; }
+
+#promo { color: white; font: bold 20px Helvetica; position: absolute; top: 10px; left: 10px; z-index: 10000; }
+#promo a { color: white; font: bold 20px Helvetica; }
