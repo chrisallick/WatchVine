@@ -1,8 +1,14 @@
-WatchVine
+Camron.js
 ======
 
-Watch random Vine videos on an interval
+Camron.js takes advantage of the new getMediaDevice() while falling back on a small Flash file when getMediaDevice() is not available
 
-http://clubsexytime.com/projects/vinetv/
+Supports mobile as well as outputs to canvas and can send via websockets as Base64 string.
 
-Thanks.  Cannot wait for the API :)
+http://clubsexytime.com/projects/camron.js/
+
+Attribution:
+
+<a href="http://thenounproject.com/noun/camera/#icon-No781" target="_blank">Camera</a> designed by <a href="http://thenounproject.com/brandcut" target="_blank">Stanislav Levin</a> from The Noun Project
+
+<a href="https://github.com/sshilko/jQuery-AS3-Webcam">jQuery AS3 Webcam</a> by: Sergey Shilko
