@@ -35,6 +35,7 @@ set_video = function(url) {
     video.onerror = function() {
         set_random();
     }
+    t = setTimeout( set_random, 24000 );
 }
 
 fetch_source_url = function( url ) {
@@ -64,7 +65,7 @@ $(document).ready(function() {
     });
 
     fetch();
-    setTimeout( fetch, 60000 );
+    setInterval( fetch, 1100000 );
 
     if( $(document).width() > $(document).height() ) {
         $("#video").width( $(document).width() ).css({
